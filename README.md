@@ -9,7 +9,7 @@ task2 - A program for converting numbers from binary to decimal notation
 task3 - The program for converting numbers into numerals
 
 ------------------------------------------------------------------------
-task4 - Phrase var4
+task4 - Phrase var4 <br />
 На складе пылилось N стульев
 
 ------------------------------------------------------------------------
