@@ -5,7 +5,6 @@ s = {1: 'один', 2: 'два', 3: 'три', 4: 'четыре', 5: 'пять', 
      20: 'двадцать', 30: 'тридцать', 40: 'сорок', 50: 'пятьдесят', 60: 'шестьдесят',
      70: 'семьдесят', 80: 'восемьдесят', 90: 'девяносто'}
 
-number = int(input())
 def to_word(number):
     if (number < 1): return None
     elif (number > 99): return 'много'
@@ -13,4 +12,5 @@ def to_word(number):
     elif (number % 10 != 0): return s[number // 10 * 10] + ' ' + s[number % 10]
     else: return s[number // 10 * 10] + ' ' + ''
 
-print(to_word(number))
+for i in range(1, 100):
+    print(to_word(i))
